@@ -1,8 +1,8 @@
-﻿// Veilheim
+﻿// Autoheim
 // a Valheim mod
 // 
 // File:    IgnoreAccessModifiers.cs
-// Project: Veilheim
+// Project: Autoheim
 
 using System.Security.Permissions;
 

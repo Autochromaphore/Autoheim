@@ -1,6 +1,6 @@
 ﻿{
-  "name": "JotunnModStub",
-  "description": "",
+  "name": "Autoheim",
+  "description": "Some fiddling that shouldn't end up anywhere. Trying to fix up the BeastRaces mod for the latest versions of things.",
   "version_number": "0.0.1",
   "website_url": "",
   "dependencies": [

@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>JotunnModStub</RootNamespace>
     <AssemblyName>JotunnModStub</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
@@ -48,6 +48,9 @@
     <Reference Include="0Harmony, Version=2.9.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\HarmonyX.2.9.0\lib\net45\0Harmony.dll</HintPath>
     </Reference>
+    <Reference Include="BlacksmithTools">
+      <HintPath>C:\Users\kyler\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Valheim\profiles\Autochrome\BepInEx\plugins\GoldenJude-Blacksmiths_tools\BlacksmithTools.dll</HintPath>
+    </Reference>
     <Reference Include="Jotunn, Version=2.6.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\JotunnLib.2.6.1\lib\net462\Jotunn.dll</HintPath>
     </Reference>
@@ -81,14 +84,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Equipment.cs" />
     <Compile Include="Properties\IgnoreAccessModifiers.cs" />
-    <Compile Include="JotunnModStub.cs" />
+    <Compile Include="Autoheim.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="README.md" />
+    <EmbeddedResource Include="Resources.beastraces" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Package\plugins\" />
